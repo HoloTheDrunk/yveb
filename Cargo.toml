@@ -1,9 +1,18 @@
 [package]
 name = "yveb"
 version = "0.1.0"
-edition = "2018"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = "0.5"
+bevy = { version = "0.7.0", features = ["dynamic", "serialize"] }
+bevycheck = "0.2"
+
+serde = { version = "^1.0", features = ["derive"] }
+
+# Game settings saving/loading
+serde_yaml = "^0.8"
+
+# Song files saving/loading
+csv = "^1.1"

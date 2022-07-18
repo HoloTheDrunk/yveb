@@ -1,0 +1,18 @@
+---
+judgements:
+  - 16
+  - 40
+  - 73
+  - 104
+  - 127
+channels:
+  - key: D
+    scroll_speed: 100
+    spawn_position:
+      - 0.0
+      - 0.0
+    target_position:
+      - 0.0
+      - 0.0
+    local_rotation: 0.0
+    world_rotation: 0.0
